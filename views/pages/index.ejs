@@ -8,58 +8,181 @@
 
   <% include ../partials/nav.ejs %>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <a href="/" class="lang-logo">
-      <img src="/lang-logo.png">
-    </a>
-    <h1>Getting Started on Heroku with Node.js</h1>
-    <p>This is a sample Node application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to get the most out of the Heroku platform.</p>
-    <a type="button" class="btn btn-lg btn-default" href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"><span class="glyphicon glyphicon-flash"></span> Getting Started on Heroku with Node.js</a>
-    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/node-js-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
-  </div>
-</div>
-<div class="container">
-  <div class="alert alert-info text-center" role="alert">
-    To deploy your own copy, and learn the fundamentals of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs" class="alert-link">Getting Started on Heroku with Node.js</a> tutorial.
-  </div>
-  <hr>
-  <div class="row">
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-info-sign"></span> How this sample app works</h3>
-      <ul>
-        <li>This app was deployed to Heroku, either using Git or by using <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
+  <header class="masthead text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 mx-auto">
+          <h1 class="mb-5">Patchogue’s Family Dry Cleaners for <br> <span>over 60 Years!</span> </h1>
+          <h5>1 S Country Rd, East Patchogue, NY
+          </h5>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        </div>
+      </div>
+    </div>
+  </header>
 
-        <li>When Heroku received the source code, it fetched all the dependencies in the <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
-        <li>The platform then spins up a dyno, a lightweight container that provides an isolated environment in which the slug can be mounted and executed.</li>
-        <li>You can scale your app, manage it, and deploy over <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
-      </ul>
+  <!-- Icons Grid -->
+  <section class="features-icons text-center bg-red">
+    <div class="container ">
+      <div class="row text-white">
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-screen-desktop m-auto text-white"></i>
+            </div>
+            <h3>What We Do</h3>
+            <p class="lead mb-0">Swan Cleaners will do Dry Cleaning, Altering and Tailoring, Suede Cleaning, Leather Cleaning, Wedding Gowns and more.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-layers m-auto text-white"></i>
+            </div>
+            <h3>How We Do It</h3>
+            <p class="lead mb-0">We have state of the art dry cleaning machines with huge capacity and high powered cleaning.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+            <div class="features-icons-icon d-flex">
+              <i class="icon-check m-auto text-white"></i>
+            </div>
+            <h3>What To Expect</h3>
+            <p class="lead mb-0">The same wonderful customer service and dry cleaning Patchogue has been receiving for over 60 years from the McGiff Family.
+
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="col-md-6">
-      <h3><span class="glyphicon glyphicon-link"></span> Next Steps</h3>
-      <ul>
-        <li>If you are following the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
-        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
-        <ul>
-          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
-          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
-          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
-          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
-        </ul>
-      </ul>
-      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
-      <ul>
-        <li><a href="https://www.heroku.com/home">Heroku</a></li>
-        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started on Heroku with Node.js</a></li>
-        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
-      </ul>
+  </section>
+
+  <!-- Image Showcases -->
+  <section class="showcase">
+    <div class="container-fluid p-0">
+      <div class="row no-gutters">
+
+        <div class="col-lg-6 order-lg-2 showcase-img  bg-light" >
+          <div class="row">
+            <div class="col hoo">
+              <ul class="mt-5 pt-5 pl-5 ml-5 pb-5">
+                <li>Sunday: <span class="hours-of-operation"> Closed</span></li>
+                <li>Monday: <span class="hours-of-operation"> 7:00am to 5:30pm</span></li>
+                <li>Tuesday: <span class="hours-of-operation"> 7:00am to 5:30pm</span></li>
+                <li>Wednesday: <span class="hours-of-operation"> 7:00am to 5:30pm</span></li>
+                <li>Thursday: <span class="hours-of-operation"> 7:00am to 5:30pm</span></li>
+                <li>Friday: <span class="hours-of-operation"> 7:00am to 5:30pm</span></li>
+                <li>Saturday: <span class="hours-of-operation"> 8:00am to 4:00pm</span></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 my-auto showcase-text text-center">
+          <h2>Hours of Operation</h2>
+          <!--<p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>-->
+        </div>
+      </div>
+      <div class="row no-gutters">
+        <div class="col-lg-6 showcase-img bg-light p-5 contact-us">
+          <div class="contact-us-content">
+            <h4 class="align-middle mt-5"><span>Call Us:</span><br> 631-289-0400</h4>
+             <h4 class="align-middle"><span>Email Us:</span><br> info@swancleanersofpatchogue.com</h4>
+          </div>
+          
+        </div>
+        <div class="col-lg-6 my-auto showcase-text text-center">
+          <h2>How To Contact Us</h2>
+          <!--<p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>-->
+        </div>
+      </div>
     </div>
-  </div> <!-- row -->
-   <div class="alert alert-info text-center" role="alert">
-    Please do work through the Getting Started guide, even if you do know how to build such an application.  The guide covers the basics of working with Heroku, and will familiarize you with all the concepts you need in order to build and deploy your own apps.
-  </div>
-</div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials text-center bg-red text-white">
+    <div class="container-fluid pr-5 pl-5">
+      <h2 class="mb-5">What people are saying...</h2>
+      <div class="row pr-5 pl-5">
+        <div class="col">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            
+            <h5>Katrina G.</h5>
+            <p class="font-weight-light mb-0">"Such a nice owner, they do a great job. Love the memorabilia displayed. Just a nice mom and pop cleaner's to support. Highly recommended."</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+           
+            <h5>Linda Z</h5>
+            <p class="font-weight-light mb-0">"Great place to bring your clothes to be cleaned. They do everything perfect. The owner is always there and is the most accommodating person I have known and the employees are just as nice and accommodating.  It's a pleasure to go there.."</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+           
+            <h5>Hiram R.</h5>
+            <p class="font-weight-light mb-0">"Been using Swan since moving to Patchogue. Can not be happier. Always friendly. Remembers your name when you come in. Excellent quality of dry cleaning for personal items and work uniforms. 
+
+              Kevin, is friendly and a nice human being. I can not, and will not  go anywhere else."</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+           
+            <h5>Joseph G.</h5>
+            <p class="font-weight-light mb-0">"I brought 2 pairs of cheap shorts. Only to have new button's put on. They went out of their way to clean them without even asking. If you even consider any other cleaner you crazy. The owner is a complete gentleman and a true patriot."</p>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+           
+            <h5>Stephen S.</h5>
+            <p class="font-weight-light mb-0">"Been going here going on five years never an issue always pleasant.              "</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-9 mx-auto">
+          <h2 class="mb-4">Stop In Today!</h2>
+        </div>
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+        
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+         
+          <p class="text-muted small mb-4 mb-lg-0">&copy; Your Swan Cleaners 2019. All Rights Reserved.</p>
+        </div>
+        <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+          
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 </body>
